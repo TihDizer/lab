@@ -16,27 +16,6 @@ services:
     networks:
       - lab-net
 
-  suricata:
-    build: ./suricata
-    container_name: suricata
-    restart: unless-stopped
-    network_mode: host
-    security_opt:
-      - label=disable
-    cap_add:
-      - NET_ADMIN
-      - NET_RAW
-    volumes:
-      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml:ro
-      - ./suricata/rules:/etc/suricata/rules:ro
-      - ./suricata/logs:/var/log/suricata
-    command:
-      - suricata
-      - -c
-      - /etc/suricata/suricata.yaml
-      - -q
-      - "1"
-
 networks:
   lab-net:
     driver: bridge
