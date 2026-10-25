@@ -1,0 +1,249 @@
+[722 - Suricata-Main] 2026-10-16 13:49:25 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[722 - Suricata-Main] 2026-10-16 13:49:25 Info: cpu: CPUs/cores online: 2
+[722 - Suricata-Main] 2026-10-16 13:49:25 Info: nfq: NFQ running in standard ACCEPT/DROP mode
+[722 - Suricata-Main] 2026-10-16 13:49:25 Info: suricata: No 'host-mode': suricata is in IPS mode, using default setting 'router'
+[722 - Suricata-Main] 2026-10-16 13:49:25 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[722 - Suricata-Main] 2026-10-16 13:49:25 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[722 - Suricata-Main] 2026-10-16 13:49:25 Warning: counters: stats are enabled but no loggers are active
+[722 - Suricata-Main] 2026-10-16 13:49:25 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: reference-config: Error opening file: "/etc/suricata/reference.config": No such file or directory
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: reference-config: please check the "reference-config-file" option in your suricata.yaml file
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect-parse: Signature missing required value "sid".
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect: error parsing signature "drop icmp any any -> any any (" from file /etc/suricata/rules/local.rules at line 2
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect-parse: no rule options.
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 6
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect-parse: Signature missing required value "sid".
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/local.rules at line 9
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect-parse: no rule options.
+[722 - Suricata-Main] 2026-10-16 13:49:25 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 15
+[722 - Suricata-Main] 2026-10-16 13:49:25 Warning: detect: 1 rule files specified, but no rules were loaded!
+[722 - Suricata-Main] 2026-10-16 13:49:25 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[722 - Suricata-Main] 2026-10-16 13:49:25 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[743 - RX-NFQ#1] 2026-10-16 13:49:25 Info: nfq: binding this thread 0 to queue '1'
+[743 - RX-NFQ#1] 2026-10-16 13:49:25 Info: nfq: setting queue length to 4096
+[743 - RX-NFQ#1] 2026-10-16 13:49:25 Info: nfq: setting nfnl bufsize to 6144000
+[722 - Suricata-Main] 2026-10-16 13:49:25 Notice: threads: Threads created -> RX: 1 W: 2 TX: 1 FM: 1 FR: 1   Engine started.
+[722 - Suricata-Main] 2026-10-16 14:10:16 Notice: suricata: Signal Received.  Stopping engine.
+[722 - Suricata-Main] 2026-10-16 14:10:17 Info: suricata: time elapsed 1252.078s
+[743 - RX-NFQ#1] 2026-10-16 14:10:17 Notice: nfq: (RX-NFQ#1) Treated: Pkts 30623, Bytes 33195266, Errors 0
+[743 - RX-NFQ#1] 2026-10-16 14:10:17 Notice: nfq: (RX-NFQ#1) Verdict: Accepted 30617, Dropped 6, Replaced 0
+[721 - Suricata-Main] 2026-10-16 14:10:44 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[721 - Suricata-Main] 2026-10-16 14:10:44 Info: cpu: CPUs/cores online: 2
+[721 - Suricata-Main] 2026-10-16 14:10:44 Info: nfq: NFQ running in standard ACCEPT/DROP mode
+[721 - Suricata-Main] 2026-10-16 14:10:44 Info: suricata: No 'host-mode': suricata is in IPS mode, using default setting 'router'
+[721 - Suricata-Main] 2026-10-16 14:10:44 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[721 - Suricata-Main] 2026-10-16 14:10:44 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[721 - Suricata-Main] 2026-10-16 14:10:44 Warning: counters: stats are enabled but no loggers are active
+[721 - Suricata-Main] 2026-10-16 14:10:44 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: reference-config: Error opening file: "/etc/suricata/reference.config": No such file or directory
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: reference-config: please check the "reference-config-file" option in your suricata.yaml file
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect-parse: Signature missing required value "sid".
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect: error parsing signature "drop icmp any any -> any any (" from file /etc/suricata/rules/local.rules at line 2
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect-parse: no rule options.
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 6
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect-parse: Signature missing required value "sid".
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/local.rules at line 9
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect-parse: no rule options.
+[721 - Suricata-Main] 2026-10-16 14:10:44 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 15
+[721 - Suricata-Main] 2026-10-16 14:10:44 Warning: detect: 1 rule files specified, but no rules were loaded!
+[721 - Suricata-Main] 2026-10-16 14:10:44 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[721 - Suricata-Main] 2026-10-16 14:10:44 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[747 - RX-NFQ#1] 2026-10-16 14:10:44 Info: nfq: binding this thread 0 to queue '1'
+[747 - RX-NFQ#1] 2026-10-16 14:10:44 Info: nfq: setting queue length to 4096
+[747 - RX-NFQ#1] 2026-10-16 14:10:44 Info: nfq: setting nfnl bufsize to 6144000
+[721 - Suricata-Main] 2026-10-16 14:10:44 Notice: threads: Threads created -> RX: 1 W: 2 TX: 1 FM: 1 FR: 1   Engine started.
+[721 - Suricata-Main] 2026-10-16 14:16:34 Notice: suricata: Signal Received.  Stopping engine.
+[721 - Suricata-Main] 2026-10-16 14:16:34 Info: suricata: time elapsed 350.575s
+[747 - RX-NFQ#1] 2026-10-16 14:16:35 Notice: nfq: (RX-NFQ#1) Treated: Pkts 29101, Bytes 33117060, Errors 0
+[747 - RX-NFQ#1] 2026-10-16 14:16:35 Notice: nfq: (RX-NFQ#1) Verdict: Accepted 29093, Dropped 8, Replaced 0
+[742 - Suricata-Main] 2026-10-16 14:18:34 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[742 - Suricata-Main] 2026-10-16 14:18:34 Info: cpu: CPUs/cores online: 2
+[742 - Suricata-Main] 2026-10-16 14:18:34 Info: nfq: NFQ running in standard ACCEPT/DROP mode
+[742 - Suricata-Main] 2026-10-16 14:18:34 Info: suricata: No 'host-mode': suricata is in IPS mode, using default setting 'router'
+[742 - Suricata-Main] 2026-10-16 14:18:34 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[742 - Suricata-Main] 2026-10-16 14:18:34 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[742 - Suricata-Main] 2026-10-16 14:18:34 Warning: counters: stats are enabled but no loggers are active
+[742 - Suricata-Main] 2026-10-16 14:18:34 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: reference-config: Error opening file: "/etc/suricata/reference.config": No such file or directory
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: reference-config: please check the "reference-config-file" option in your suricata.yaml file
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect-parse: Signature missing required value "sid".
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect: error parsing signature "drop icmp any any -> any any (" from file /etc/suricata/rules/local.rules at line 2
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect-parse: no rule options.
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 6
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect-parse: Signature missing required value "sid".
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/local.rules at line 9
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect-parse: no rule options.
+[742 - Suricata-Main] 2026-10-16 14:18:34 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 15
+[742 - Suricata-Main] 2026-10-16 14:18:34 Warning: detect: 1 rule files specified, but no rules were loaded!
+[742 - Suricata-Main] 2026-10-16 14:18:34 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[742 - Suricata-Main] 2026-10-16 14:18:34 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[761 - RX-NFQ#1] 2026-10-16 14:18:34 Info: nfq: binding this thread 0 to queue '1'
+[761 - RX-NFQ#1] 2026-10-16 14:18:34 Info: nfq: setting queue length to 4096
+[761 - RX-NFQ#1] 2026-10-16 14:18:34 Info: nfq: setting nfnl bufsize to 6144000
+[742 - Suricata-Main] 2026-10-16 14:18:34 Notice: threads: Threads created -> RX: 1 W: 2 TX: 1 FM: 1 FR: 1   Engine started.
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Info: cpu: CPUs/cores online: 2
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Info: suricata: Running suricata under test mode
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Info: suricata: Setting engine mode to IDS mode by default
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Warning: counters: stats are enabled but no loggers are active
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[1499 - Suricata-Main] 2026-10-16 14:25:52 Error: suricata: initializing detection engine failed.
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Info: cpu: CPUs/cores online: 2
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Info: suricata: Running suricata under test mode
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Info: suricata: Setting engine mode to IDS mode by default
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Warning: counters: stats are enabled but no loggers are active
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[1503 - Suricata-Main] 2026-10-16 14:26:15 Error: suricata: initializing detection engine failed.
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Info: cpu: CPUs/cores online: 2
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Info: suricata: Running suricata under test mode
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Info: suricata: Setting engine mode to IDS mode by default
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: exception-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: app-layer.error-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: app-layer-htp: 'default' server has 'request-body-minimal-inspect-size' set to 31700 and 'request-body-inspect-window' set to 4055 after randomization.
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: app-layer-htp: 'default' server has 'response-body-minimal-inspect-size' set to 33668 and 'response-body-inspect-window' set to 4158 after randomization.
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: app-layer-ssl: no TLS config found, enabling TLS detection on port 443.
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: smb: read: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: smb: write: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: smb: guid: max cache size: 1024
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: app-layer-dnp3: Protocol detection and parser disabled for DNP3.
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: host: allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: host: preallocated 1000 hosts of size 120
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: host: host memory usage: 382144 bytes, maximum: 16777216
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: defrag.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: defrag-hash: allocated 196608 bytes of memory for the defrag hash... 4096 buckets of size 48
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: defrag-hash: defrag memory usage: 196608 bytes, maximum: 16777216
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: flow.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: flow: flow size 296, memcap allows for 0 flows. Per hash row in perfect conditions 0
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "prealloc-sessions": 2048 (per thread)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "memcap": 67108864
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "midstream" session pickups: disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "async-oneside": disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "checksum-validation": enabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: stream.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: stream.reassembly.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: exception-policy: stream.midstream-policy: ignore (defined via 'built-in default' for IDS-mode)
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream."inline": disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "bypass": disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly.urgent.policy": inline
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "max-syn-queued": 10
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream "max-synack-queued": 5
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly "memcap": 268435456
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly "depth": 0
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly "toserver-chunk-size": 2658
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly "toclient-chunk-size": 2584
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.reassembly.raw: enabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp: stream.liberal-timestamps: disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp-reassemble: stream.reassembly "segment-prealloc": 2048
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: stream-tcp-reassemble: stream.reassembly "max-regions": 8
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: logopenfile: Setting output to /var/log/suricata/eve.json non-buffered
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: runmodes: enabling 'eve-log' module 'alert'
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: runmodes: enabling 'eve-log' module 'drop'
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: runmodes: enabling 'eve-log' module 'http'
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: runmodes: enabling 'eve-log' module 'dns'
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Warning: counters: stats are enabled but no loggers are active
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: landlock: Landlock is not enabled in configuration
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: suricata: Delayed detect disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: detect: pattern matchers: MPM: hs, SPM: hs
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: detect: grouping: tcp-priority-ports (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: detect: grouping: udp-priority-ports (default) 53, 135, 5060
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: detect: prefilter engines: MPM
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Config: reputation: IP reputation disabled
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[1504 - Suricata-Main] 2026-10-16 14:26:32 Error: suricata: initializing detection engine failed.
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Info: cpu: CPUs/cores online: 2
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Info: suricata: Running suricata under test mode
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Info: suricata: Setting engine mode to IDS mode by default
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Warning: counters: stats are enabled but no loggers are active
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[1505 - Suricata-Main] 2026-10-16 14:26:38 Error: suricata: initializing detection engine failed.
+[1512 - Suricata-Main] 2026-10-16 14:27:49 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1512 - Suricata-Main] 2026-10-16 14:27:49 Info: cpu: CPUs/cores online: 2
+[1512 - Suricata-Main] 2026-10-16 14:27:49 Info: suricata: Running suricata under test mode
+[1512 - Suricata-Main] 2026-10-16 14:27:49 Info: suricata: Setting engine mode to IDS mode by default
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Warning: counters: stats are enabled but no loggers are active
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect-parse: Signature missing required value "sid".
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect: error parsing signature "drop icmp any any -> any any (" from file /etc/suricata/rules/local.rules at line 2
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect-parse: no rule options.
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 6
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect-parse: Signature missing required value "sid".
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/local.rules at line 9
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect-parse: no rule options.
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: detect: error parsing signature ")" from file /etc/suricata/rules/local.rules at line 15
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1512 - Suricata-Main] 2026-10-16 14:27:50 Error: suricata: Loading signatures failed.
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: cpu: CPUs/cores online: 2
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: suricata: Running suricata under test mode
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: suricata: Setting engine mode to IDS mode by default
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Warning: counters: stats are enabled but no loggers are active
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Info: detect: 2 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[1517 - Suricata-Main] 2026-10-16 14:28:33 Notice: suricata: Configuration provided was successfully loaded. Exiting.
+[742 - Suricata-Main] 2026-10-16 14:28:45 Notice: suricata: Signal Received.  Stopping engine.
+[742 - Suricata-Main] 2026-10-16 14:28:46 Info: suricata: time elapsed 612.298s
+[761 - RX-NFQ#1] 2026-10-16 14:28:46 Notice: nfq: (RX-NFQ#1) Treated: Pkts 28595, Bytes 33090232, Errors 0
+[761 - RX-NFQ#1] 2026-10-16 14:28:46 Notice: nfq: (RX-NFQ#1) Verdict: Accepted 28587, Dropped 8, Replaced 0
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in SYSTEM mode
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: cpu: CPUs/cores online: 2
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: nfq: NFQ running in standard ACCEPT/DROP mode
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: suricata: No 'host-mode': suricata is in IPS mode, using default setting 'router'
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Notice: stream-tcp: stream.reassembly.depth set to unlimited by default
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Warning: counters: stats are enabled but no loggers are active
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[1521 - Suricata-Main] 2026-10-16 14:28:46 Info: detect: 2 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[1524 - RX-NFQ#1] 2026-10-16 14:28:47 Info: nfq: binding this thread 0 to queue '1'
+[1524 - RX-NFQ#1] 2026-10-16 14:28:47 Info: nfq: setting queue length to 4096
+[1524 - RX-NFQ#1] 2026-10-16 14:28:47 Info: nfq: setting nfnl bufsize to 6144000
+[1521 - Suricata-Main] 2026-10-16 14:28:47 Notice: threads: Threads created -> RX: 1 W: 2 TX: 1 FM: 1 FR: 1   Engine started.
+[1521 - Suricata-Main] 2026-10-16 14:32:13 Notice: suricata: Signal Received.  Stopping engine.
+[1521 - Suricata-Main] 2026-10-16 14:32:14 Info: suricata: time elapsed 207.388s
+[1524 - RX-NFQ#1] 2026-10-16 14:32:14 Notice: nfq: (RX-NFQ#1) Treated: Pkts 43, Bytes 3720, Errors 0
+[1524 - RX-NFQ#1] 2026-10-16 14:32:14 Notice: nfq: (RX-NFQ#1) Verdict: Accepted 40, Dropped 3, Replaced 0
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: cpu: CPUs/cores online: 2
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: nfq: NFQ running in standard ACCEPT/DROP mode
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: suricata: No 'host-mode': suricata is in IPS mode, using default setting 'router'
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Warning: counters: stats are enabled but no loggers are active
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Info: detect: 2 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[2986 - RX-NFQ#1] 2026-10-22 14:32:29 Info: nfq: binding this thread 0 to queue '1'
+[2986 - RX-NFQ#1] 2026-10-22 14:32:29 Info: nfq: setting queue length to 4096
+[2986 - RX-NFQ#1] 2026-10-22 14:32:29 Info: nfq: setting nfnl bufsize to 6144000
+[2985 - Suricata-Main] 2026-10-22 14:32:29 Notice: threads: Threads created -> RX: 1 W: 2 TX: 1 FM: 1 FR: 1   Engine started.
+[2985 - Suricata-Main] 2026-10-22 14:32:38 Notice: suricata: Signal Received.  Stopping engine.
+[2985 - Suricata-Main] 2026-10-22 14:32:39 Info: suricata: time elapsed 9.254s
+[2986 - RX-NFQ#1] 2026-10-22 14:32:39 Notice: nfq: (RX-NFQ#1) Treated: Pkts 0, Bytes 0, Errors 0
+[2986 - RX-NFQ#1] 2026-10-22 14:32:39 Notice: nfq: (RX-NFQ#1) Verdict: Accepted 0, Dropped 0, Replaced 0
